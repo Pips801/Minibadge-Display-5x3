@@ -9622,6 +9622,30 @@
 			)
 		)
 	)
+	(hierarchical_label "D-"
+		(shape output)
+		(at 158.75 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15a16242-4bda-4169-ac69-9dbe2a745a80")
+	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 158.75 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55b5c8e0-d388-44e2-a14a-d458235c6ba5")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 146.05 48.26 0)
@@ -9632,7 +9656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604794ea-91d8-423e-abd0-09df5646ad1f")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR06"
 			(at 146.05 54.61 0)
 			(effects
 				(font
@@ -9682,7 +9706,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/ffb3e92b-c9a0-4fa4-9e23-60cee07ab96a"
-					(reference "#PWR098")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9698,7 +9722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "667fdfc2-5eb5-4b64-875a-5a755a6bc29d")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR09"
 			(at 182.88 54.61 0)
 			(effects
 				(font
@@ -9748,7 +9772,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/ffb3e92b-c9a0-4fa4-9e23-60cee07ab96a"
-					(reference "#PWR0105")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9832,7 +9856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a409a553-1a46-4620-8a3f-6043f84738bf")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR08"
 			(at 168.91 97.79 0)
 			(effects
 				(font
@@ -9882,7 +9906,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/ffb3e92b-c9a0-4fa4-9e23-60cee07ab96a"
-					(reference "#PWR096")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10035,7 +10059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be77efb9-b99d-4d20-9dd0-5a66d4f92490")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR07"
 			(at 158.75 45.72 0)
 			(effects
 				(font
@@ -10085,7 +10109,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/ffb3e92b-c9a0-4fa4-9e23-60cee07ab96a"
-					(reference "#PWR097")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

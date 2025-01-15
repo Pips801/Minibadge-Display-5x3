@@ -543,11 +543,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -605,11 +617,15 @@
     ],
     [
       "f82e88ca-9adc-48b9-bd3d-d05196ebe384",
-      "USB-C port"
+      "USB-C"
     ],
     [
       "72dbc5c2-e6c3-4b41-8ecd-db82b0a9ba3e",
       "QSPI Flash module"
+    ],
+    [
+      "dd5131e2-5cc6-4770-9855-76714fa7cc76",
+      "USB Switch"
     ]
   ],
   "text_variables": {}
