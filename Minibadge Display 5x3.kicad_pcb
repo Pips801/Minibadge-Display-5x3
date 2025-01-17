@@ -9385,8 +9385,8 @@
 		(uuid "d1b0336a-9847-41a9-8218-c5cf51bd0029")
 	)
 	(gr_rect
-		(start 214.122 135.128)
-		(end 254.254 195.326)
+		(start 27.686 86.233)
+		(end 67.818 146.431)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9407,15 +9407,15 @@
 		(uuid "4ff68d63-1f3b-473b-bb5c-8fd7f2b989fe")
 	)
 	(gr_rect
-		(start 136.144 135.128)
-		(end 176.276 195.326)
+		(start 99.314 44.902)
+		(end 186.944 111.958)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill solid)
 		(layer "User.1")
-		(uuid "964d36ff-7c21-442d-b55d-1a5a45149c77")
+		(uuid "910af21b-a9a7-4a36-8957-57d34ad06f9b")
 	)
 	(gr_text "${TITLE} by Pips801"
 		(at 184.658 109.474 0)
