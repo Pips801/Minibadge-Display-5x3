@@ -447,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Minibadge Display 5x3.kicad_pro",
+    "filename": "Display main board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -555,6 +555,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Hardware Design Docs",
+          "name": "Hardware Design Docs",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -610,10 +616,6 @@
     [
       "ffb3e92b-c9a0-4fa4-9e23-60cee07ab96a",
       "BMS"
-    ],
-    [
-      "6e97fb62-2d35-4554-a843-3cbb1f9f2f26",
-      "5x3 minibadge grid"
     ],
     [
       "f82e88ca-9adc-48b9-bd3d-d05196ebe384",

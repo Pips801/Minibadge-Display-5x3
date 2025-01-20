@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.2,
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -608,28 +608,8 @@
       "Root"
     ],
     [
-      "ffb3e92b-c9a0-4fa4-9e23-60cee07ab96a",
-      "BMS"
-    ],
-    [
       "6e97fb62-2d35-4554-a843-3cbb1f9f2f26",
       "5x3 minibadge grid"
-    ],
-    [
-      "f82e88ca-9adc-48b9-bd3d-d05196ebe384",
-      "USB-C Port"
-    ],
-    [
-      "72dbc5c2-e6c3-4b41-8ecd-db82b0a9ba3e",
-      "QSPI Flash module"
-    ],
-    [
-      "dd5131e2-5cc6-4770-9855-76714fa7cc76",
-      "USB Switch"
-    ],
-    [
-      "9c03ac80-c552-4a59-83c4-4e8b67a63031",
-      "RP2040"
     ]
   ],
   "text_variables": {}
