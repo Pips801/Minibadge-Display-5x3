@@ -3450,7 +3450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06b6c044-9f5d-4f65-97a4-2415d4f6d481")
-		(property "Reference" "C18"
+		(property "Reference" "C10"
 			(at 69.85 44.45 0)
 			(effects
 				(font
@@ -3504,7 +3504,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C18")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3520,7 +3520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1348303f-789e-4cfd-a8a0-2a30a83bf52b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR030"
 			(at 106.68 162.56 0)
 			(effects
 				(font
@@ -3570,7 +3570,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "#PWR01")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20023555-5582-47c7-82b9-5ecbdc21cd3b")
-		(property "Reference" "C9"
+		(property "Reference" "C14"
 			(at 151.13 44.45 0)
 			(effects
 				(font
@@ -3639,7 +3639,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C9")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3736,7 +3736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cb0f895-7a75-4a08-bd33-da4834343699")
-		(property "Reference" "C11"
+		(property "Reference" "C16"
 			(at 179.07 44.45 0)
 			(effects
 				(font
@@ -3790,7 +3790,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C11")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3806,7 +3806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4459c164-d7f1-4182-bb7f-e34fcd5aa2e3")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR029"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -3856,7 +3856,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "#PWR0117")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3872,7 +3872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6234ae4f-0433-4dc8-9185-1dc5954b7fa8")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR033"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -3922,7 +3922,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "#PWR0120")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3937,7 +3937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72b372e4-8af5-4e13-b6f3-5d2e9ce05ef9")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 108.8741 154.94 0)
 			(effects
 				(font
@@ -4163,7 +4163,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4178,7 +4178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fc5aeb4-8245-4b4d-9011-c2dc69a5b92a")
-		(property "Reference" "C1"
+		(property "Reference" "C13"
 			(at 137.16 44.45 0)
 			(effects
 				(font
@@ -4232,7 +4232,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C1")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4248,7 +4248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90eb0a2c-e9d0-45b7-9bc1-68b0f4021eab")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 93.9863 52.07 90)
 			(effects
 				(font
@@ -4300,7 +4300,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4315,7 +4315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ab1284d-63ae-4427-bf3b-00e8525a9e09")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 165.1 44.45 0)
 			(effects
 				(font
@@ -4369,7 +4369,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4385,7 +4385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49eff79-34cf-4980-85f6-dc8ae1d9a841")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR034"
 			(at 232.41 58.42 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "#PWR0115")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4450,7 +4450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b619d901-fb4c-4edc-9dfe-0c7a98f69a0e")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 234.95 44.45 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4520,7 +4520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6e32710-1797-4615-a275-75d6a1dee84f")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR032"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -4570,7 +4570,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "#PWR0118")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4653,7 +4653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c74eaada-22ed-48ef-b59d-c3c28a89fcde")
-		(property "Reference" "C19"
+		(property "Reference" "C9"
 			(at 55.88 44.45 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C19")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4722,7 +4722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7977aa2-07ad-4176-9046-d8076f1e1904")
-		(property "Reference" "C14"
+		(property "Reference" "C19"
 			(at 220.98 44.45 0)
 			(effects
 				(font
@@ -4776,7 +4776,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C14")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4792,7 +4792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebf2dc11-b065-49fd-8d09-ee9e7a658f1f")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR028"
 			(at 85.09 66.04 0)
 			(effects
 				(font
@@ -4842,7 +4842,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "#PWR0116")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f34a40a2-9c39-4584-a95c-392b97e0153a")
-		(property "Reference" "C13"
+		(property "Reference" "C18"
 			(at 207.01 44.45 0)
 			(effects
 				(font
@@ -4911,7 +4911,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C13")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4927,7 +4927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f34e44bd-63ed-47fa-8f59-e39732e723dc")
-		(property "Reference" "C16"
+		(property "Reference" "C12"
 			(at 124.4663 52.07 90)
 			(effects
 				(font
@@ -4979,7 +4979,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C16")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4995,7 +4995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3c1710d-46bd-46b9-9742-9a1ff83415be")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR027"
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -5045,7 +5045,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "#PWR0119")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5061,7 +5061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f43e14f6-6589-4ea1-a85d-90f89981ad1f")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR031"
 			(at 116.84 38.1 0)
 			(effects
 				(font
@@ -5111,7 +5111,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "#PWR0121")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5126,7 +5126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f46d6b59-37a7-4d81-b3ab-3d9789945f79")
-		(property "Reference" "C12"
+		(property "Reference" "C17"
 			(at 193.04 44.45 0)
 			(effects
 				(font
@@ -5180,7 +5180,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
-					(reference "C12")
+					(reference "C17")
 					(unit 1)
 				)
 			)

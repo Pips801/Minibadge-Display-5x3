@@ -1184,7 +1184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c482dcc-a112-453d-96c4-584cd92d9a0d")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR026"
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -1234,7 +1234,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/dd5131e2-5cc6-4770-9855-76714fa7cc76"
-					(reference "#PWR0109")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1250,7 +1250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9bef58e-9f80-4b1b-969e-52d9c4069cb0")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR025"
 			(at 144.78 107.95 0)
 			(effects
 				(font
@@ -1300,7 +1300,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/dd5131e2-5cc6-4770-9855-76714fa7cc76"
-					(reference "#PWR0110")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1316,7 +1316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df3341b8-5ba0-4f96-ac8a-a40ca0ade255")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR024"
 			(at 144.78 72.39 0)
 			(effects
 				(font
@@ -1366,7 +1366,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/dd5131e2-5cc6-4770-9855-76714fa7cc76"
-					(reference "#PWR0108")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1382,7 +1382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e7a559-9f5d-477b-b13e-0b42574a3029")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 165.1 71.1262 0)
 			(effects
 				(font
@@ -1436,7 +1436,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/dd5131e2-5cc6-4770-9855-76714fa7cc76"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1452,7 +1452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f62715a7-703c-4bbc-ab6c-ff24ff746cc7")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 146.9741 76.2 0)
 			(effects
 				(font
@@ -1530,7 +1530,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/dd5131e2-5cc6-4770-9855-76714fa7cc76"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)

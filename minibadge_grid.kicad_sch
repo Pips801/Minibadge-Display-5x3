@@ -2227,7 +2227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d107dc5-31c1-4d52-98f5-92eec50f9a57")
-		(property "Reference" "MB13"
+		(property "Reference" "MB9"
 			(at 96.774 137.16 0)
 			(effects
 				(font
@@ -2323,7 +2323,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB13")
+					(reference "MB9")
 					(unit 1)
 				)
 			)
@@ -2338,7 +2338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bd38436-03af-4486-b4dd-37c46f3a6808")
-		(property "Reference" "MB2"
+		(property "Reference" "MB4"
 			(at 68.834 53.34 0)
 			(effects
 				(font
@@ -2434,7 +2434,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB2")
+					(reference "MB4")
 					(unit 1)
 				)
 			)
@@ -2449,7 +2449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c37aff4-e5f4-4adb-bca5-8ff097fc3a77")
-		(property "Reference" "MB5"
+		(property "Reference" "MB13"
 			(at 152.654 53.34 0)
 			(effects
 				(font
@@ -2545,7 +2545,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB5")
+					(reference "MB13")
 					(unit 1)
 				)
 			)
@@ -2671,7 +2671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45f9ed65-2cba-40cf-9881-ad34280f174e")
-		(property "Reference" "MB12"
+		(property "Reference" "MB6"
 			(at 68.834 137.16 0)
 			(effects
 				(font
@@ -2767,7 +2767,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB12")
+					(reference "MB6")
 					(unit 1)
 				)
 			)
@@ -2893,7 +2893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a097547-3d06-4ec6-a0d8-cde2382fb6b4")
-		(property "Reference" "MB4"
+		(property "Reference" "MB10"
 			(at 124.714 53.34 0)
 			(effects
 				(font
@@ -2989,7 +2989,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB4")
+					(reference "MB10")
 					(unit 1)
 				)
 			)
@@ -3004,7 +3004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fc7f20f-51d0-4b14-8e2a-3faba2c070a4")
-		(property "Reference" "MB14"
+		(property "Reference" "MB12"
 			(at 124.714 137.16 0)
 			(effects
 				(font
@@ -3100,7 +3100,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB14")
+					(reference "MB12")
 					(unit 1)
 				)
 			)
@@ -3115,7 +3115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7da91e6d-2005-4425-9ca4-0fc717827f0e")
-		(property "Reference" "MB3"
+		(property "Reference" "MB7"
 			(at 96.774 53.34 0)
 			(effects
 				(font
@@ -3211,7 +3211,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB3")
+					(reference "MB7")
 					(unit 1)
 				)
 			)
@@ -3226,7 +3226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e0d0728-ae0a-42cb-aecd-3956848868d4")
-		(property "Reference" "MB10"
+		(property "Reference" "MB14"
 			(at 152.654 95.25 0)
 			(effects
 				(font
@@ -3322,7 +3322,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB10")
+					(reference "MB14")
 					(unit 1)
 				)
 			)
@@ -3337,7 +3337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac6b6535-22db-4468-871b-6b38349b632d")
-		(property "Reference" "MB6"
+		(property "Reference" "MB2"
 			(at 40.894 95.25 0)
 			(effects
 				(font
@@ -3433,7 +3433,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB6")
+					(reference "MB2")
 					(unit 1)
 				)
 			)
@@ -3559,7 +3559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf953a66-ef0b-48d6-b0da-0192cc960c69")
-		(property "Reference" "MB11"
+		(property "Reference" "MB3"
 			(at 40.894 137.16 0)
 			(effects
 				(font
@@ -3655,7 +3655,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB11")
+					(reference "MB3")
 					(unit 1)
 				)
 			)
@@ -3670,7 +3670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d293fdb5-f703-48e0-879c-5854c0280992")
-		(property "Reference" "MB9"
+		(property "Reference" "MB11"
 			(at 124.714 95.25 0)
 			(effects
 				(font
@@ -3766,7 +3766,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB9")
+					(reference "MB11")
 					(unit 1)
 				)
 			)
@@ -3781,7 +3781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e97d6408-3c4d-48f7-883c-49d066110c3d")
-		(property "Reference" "MB7"
+		(property "Reference" "MB5"
 			(at 68.834 95.25 0)
 			(effects
 				(font
@@ -3877,7 +3877,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/6e97fb62-2d35-4554-a843-3cbb1f9f2f26"
-					(reference "MB7")
+					(reference "MB5")
 					(unit 1)
 				)
 			)
