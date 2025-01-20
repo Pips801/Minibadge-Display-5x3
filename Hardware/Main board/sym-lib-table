@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TS3USB221A")(type "KiCad")(uri "${KIPRJMOD}/TS3USB221A/TS3USB221A.kicad_sym")(options "")(descr ""))
+)
