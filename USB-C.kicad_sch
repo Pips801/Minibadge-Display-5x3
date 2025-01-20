@@ -1099,7 +1099,6 @@
 	(hierarchical_label "D-"
 		(shape input)
 		(at 124.46 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1111,7 +1110,6 @@
 	(hierarchical_label "D+"
 		(shape output)
 		(at 124.46 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
