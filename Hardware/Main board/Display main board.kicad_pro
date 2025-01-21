@@ -630,6 +630,10 @@
       "USB Switch"
     ],
     [
+      "7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc",
+      "Power managment"
+    ],
+    [
       "9c03ac80-c552-4a59-83c4-4e8b67a63031",
       "RP2040"
     ]

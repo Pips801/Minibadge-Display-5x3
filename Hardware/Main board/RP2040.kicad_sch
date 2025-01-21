@@ -2790,6 +2790,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 95.25) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c124087-5f14-466e-9ac6-75dcb30477d2")
+	)
+	(wire
+		(pts
 			(xy 142.24 68.58) (xy 142.24 82.55)
 		)
 		(stroke
@@ -3521,6 +3531,17 @@
 			(justify right)
 		)
 		(uuid "ad1717d3-af47-47ce-87d4-a16e8839cf5c")
+	)
+	(hierarchical_label "IO9{slash}MB_CLK"
+		(shape output)
+		(at 154.94 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b80ca776-5f4c-4929-9f5d-951427e6f040")
 	)
 	(hierarchical_label "USB_DM"
 		(shape bidirectional)
