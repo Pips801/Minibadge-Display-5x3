@@ -938,7 +938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fff2d3e-d2c5-4d52-bb64-a9b1bf59e936")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -988,7 +988,7 @@
 		(instances
 			(project "5x3 Minibadge front board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1095,7 +1095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68f64016-b10b-4caa-89b8-7053907b3423")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 176.53 111.76 0)
 			(effects
 				(font
@@ -1145,7 +1145,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1161,7 +1161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a60348b8-428d-4727-93ce-ab5f4c042ff8")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 222.25 128.27 0)
 			(effects
 				(font
@@ -1211,7 +1211,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1227,7 +1227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ee5995-b47c-47a0-8051-baa6f6fe866a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 176.53 127 0)
 			(effects
 				(font
@@ -1277,7 +1277,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1293,7 +1293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d90e65-457d-4596-bd63-f53c0e20bbce")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 209.55 128.27 0)
 			(effects
 				(font
@@ -1343,7 +1343,7 @@
 		(instances
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
