@@ -3338,6 +3338,16 @@
 		)
 		(uuid "34a086c2-a07a-4b9f-ac97-f9f1f713bccb")
 	)
+	(text "TODO: Add clock!"
+		(exclude_from_sim no)
+		(at 62.23 123.444 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "a9d9458f-c7ca-479d-b77e-8bb57f7aaa97")
+	)
 	(text "10kΩ Pullup resistors for I2C + BMS"
 		(exclude_from_sim no)
 		(at 163.322 58.166 0)

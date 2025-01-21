@@ -605,16 +605,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 116.84) (xy 209.55 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ea50ab-97b5-4857-a5ff-6ac264cd5464")
-	)
-	(wire
-		(pts
 			(xy 163.83 120.65) (xy 176.53 120.65)
 		)
 		(stroke
@@ -622,6 +612,16 @@
 			(type default)
 		)
 		(uuid "c8ff84ca-7a1c-4bcf-86b4-8ce96186ad7b")
+	)
+	(wire
+		(pts
+			(xy 222.25 116.84) (xy 236.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccac4a39-dd57-4e94-abbc-a21ff9861b61")
 	)
 	(text_box "Requirements:\n- Upgrade from the 3x3 (all features from 3x3)\n- LiPo battery with BMS, USB-C recharging/board power\n- RGB LEDs sidemount diffused into 3/8\" acrylic\n- RP2040 for LED control and i2c BMS monitoring + minibadge communication\n- Functional i2c lines w/ pullups on device\n- PCB art board backplate\n- More power avaliable, split regulators"
 		(exclude_from_sim no)
@@ -642,24 +642,24 @@
 		)
 		(uuid "6999a7a4-3c3b-484f-b342-269cd9b7c28c")
 	)
-	(global_label "+VBATT"
+	(global_label "MB_SCL"
 		(shape input)
-		(at 222.25 114.3 0)
+		(at 209.55 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "03f238bc-4e39-4517-87b0-910af2e39e5d")
+		(uuid "136b5da9-d5a3-4ea2-8097-61d12484bed1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.6176 114.3 0)
+			(at 198.2569 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -686,9 +686,9 @@
 			)
 		)
 	)
-	(global_label "+3v3-2"
-		(shape input)
-		(at 222.25 111.76 0)
+	(global_label "MB_SDA"
+		(shape bidirectional)
+		(at 222.25 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -696,9 +696,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4963351e-803d-45f6-a92d-918f39cb4019")
+		(uuid "5f200fe7-d969-47d0-bd77-56f10799b289")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.9761 111.76 0)
+			(at 233.6036 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,24 +708,24 @@
 			)
 		)
 	)
-	(global_label "+3v3-1"
+	(global_label "+3v3-3"
 		(shape input)
-		(at 209.55 111.76 180)
+		(at 222.25 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5fb9fba7-d702-4e9b-bc41-8b6e70d5b57c")
+		(uuid "6b205806-4cea-4769-a947-7aad69d4ee12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.8239 111.76 0)
+			(at 232.9761 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -752,31 +752,9 @@
 			)
 		)
 	)
-	(global_label "MB_SCL"
-		(shape input)
-		(at 222.25 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b56e17e-7cfa-4b3a-af9a-cabf9487661f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.5431 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MB_SDA"
+	(global_label "MB_CLK"
 		(shape bidirectional)
-		(at 209.55 119.38 180)
+		(at 209.55 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -784,14 +762,58 @@
 			)
 			(justify right)
 		)
-		(uuid "9f2c3bc0-457c-4662-a9d7-8bb7cf701c5b")
+		(uuid "7858bbbd-326a-484f-aa33-55900429bc49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.1964 119.38 0)
+			(at 198.1964 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3v3-2"
+		(shape input)
+		(at 209.55 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8a4bd4c-2d4c-4d6c-8d57-243ae4889ec3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.8239 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3v3-1"
+		(shape input)
+		(at 222.25 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9b4f94a-1543-43b7-838d-2c76553d3647")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9761 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -842,28 +864,6 @@
 	)
 	(global_label "+3v3-3"
 		(shape input)
-		(at 209.55 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bdda915b-6e90-405a-8cfb-b4b92aca790b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.8239 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3v3-3"
-		(shape input)
 		(at 163.83 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -880,6 +880,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+VBATT"
+		(shape input)
+		(at 209.55 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0caa832-a39d-4741-8806-0e18ecd8c16a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.1824 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -906,25 +928,69 @@
 			)
 		)
 	)
-	(global_label "MB_CLK"
-		(shape bidirectional)
-		(at 222.25 116.84 0)
+	(symbol
+		(lib_id "power:+5V")
+		(at 236.22 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef7aadee-61c2-4398-8344-ca64d0ca21ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.6036 116.84 0)
+		(uuid "0fff2d3e-d2c5-4d52-bb64-a9b1bf59e936")
+		(property "Reference" "#PWR01"
+			(at 236.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cba4ac5-03a3-4d0b-af05-85e1f502d533")
+		)
+		(instances
+			(project "5x3 Minibadge front board"
+				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
+					(reference "#PWR01")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -953,7 +1019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
 			(at 214.63 116.84 0)
 			(effects
 				(font
@@ -1014,72 +1080,6 @@
 			(project "Minibadge Display 5x3"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 195.58 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d489861-6159-4122-b5c2-8ad49d11177e")
-		(property "Reference" "#PWR01"
-			(at 195.58 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 195.58 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33432142-55dc-444e-a696-cae3a25b53f8")
-		)
-		(instances
-			(project "Minibadge Display 5x3"
-				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
