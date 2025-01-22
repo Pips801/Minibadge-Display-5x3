@@ -757,16 +757,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 142.24) (xy 193.04 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ea50ab-97b5-4857-a5ff-6ac264cd5464")
-	)
-	(wire
-		(pts
 			(xy 203.2 68.58) (xy 217.17 68.58)
 		)
 		(stroke
@@ -864,6 +854,16 @@
 			(type default)
 		)
 		(uuid "8d60ea02-912b-4cbe-bae7-3dccd8f5c094")
+	)
+	(wire
+		(pts
+			(xy 219.71 142.24) (xy 205.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979d0850-d9e5-4025-8eb8-ce6d18830ec8")
 	)
 	(wire
 		(pts
@@ -1204,9 +1204,9 @@
 		)
 		(uuid "ffd83f20-e379-45fe-b8d7-c40df8b98a9b")
 	)
-	(global_label "+VBATT"
-		(shape input)
-		(at 205.74 139.7 0)
+	(global_label "MB_SDA"
+		(shape bidirectional)
+		(at 205.74 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1214,14 +1214,36 @@
 			)
 			(justify left)
 		)
-		(uuid "03f238bc-4e39-4517-87b0-910af2e39e5d")
+		(uuid "10da94bb-c36f-4917-b023-7b0b500f9327")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.1076 139.7 0)
+			(at 217.0936 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MB_SCL"
+		(shape input)
+		(at 193.04 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1926d690-fd87-47ab-9153-da8ea67645e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.7469 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1292,7 +1314,7 @@
 			)
 		)
 	)
-	(global_label "+3v3-2"
+	(global_label "+3v3-1"
 		(shape input)
 		(at 205.74 137.16 0)
 		(fields_autoplaced yes)
@@ -1302,7 +1324,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4963351e-803d-45f6-a92d-918f39cb4019")
+		(uuid "89e22e30-28b6-42be-9ca9-5336a16d7b62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 216.4661 137.16 0)
 			(effects
@@ -1314,53 +1336,9 @@
 			)
 		)
 	)
-	(global_label "+3v3-1"
-		(shape input)
-		(at 193.04 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5fb9fba7-d702-4e9b-bc41-8b6e70d5b57c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.3139 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MB_SCL"
-		(shape input)
-		(at 205.74 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b56e17e-7cfa-4b3a-af9a-cabf9487661f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.0331 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MB_SDA"
+	(global_label "MB_CLK"
 		(shape bidirectional)
-		(at 193.04 144.78 180)
+		(at 193.04 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1368,31 +1346,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9f2c3bc0-457c-4662-a9d7-8bb7cf701c5b")
+		(uuid "bc4dbc71-7b0b-44fc-a5cd-6b69fb34c11f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.6864 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3v3-3"
-		(shape input)
-		(at 193.04 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bdda915b-6e90-405a-8cfb-b4b92aca790b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.3139 139.7 0)
+			(at 181.6864 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,6 +1380,50 @@
 			)
 		)
 	)
+	(global_label "+VBATT"
+		(shape input)
+		(at 193.04 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf9f912f-d505-467b-a773-98b8baf011aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.6724 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3v3-3"
+		(shape input)
+		(at 205.74 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3aa74bd-9e37-4250-9669-582faef34537")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.4661 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SYS_SCL"
 		(shape output)
 		(at 340.36 52.07 0)
@@ -1446,6 +1446,28 @@
 			)
 		)
 	)
+	(global_label "+3v3-2"
+		(shape input)
+		(at 193.04 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e12c09b3-89c7-4759-baef-d016ff7c9f28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.3139 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MB_SDA"
 		(shape bidirectional)
 		(at 340.36 55.88 0)
@@ -1459,28 +1481,6 @@
 		(uuid "ebc71e4d-7a83-4bc7-9b13-835cd23fa095")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 350.6023 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MB_CLK"
-		(shape bidirectional)
-		(at 205.74 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef7aadee-61c2-4398-8344-ca64d0ca21ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.0936 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,6 +1613,73 @@
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
 					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d0b66f7-a205-42dc-9997-eaf287ef91ba")
+		(property "Reference" "#PWR01"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61abfb10-5bbb-4146-95b8-0534bd02aed1")
+		)
+		(instances
+			(project "Display main board"
+				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1896,72 +1963,6 @@
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
 					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 179.07 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d489861-6159-4122-b5c2-8ad49d11177e")
-		(property "Reference" "#PWR01"
-			(at 179.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 179.07 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 179.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33432142-55dc-444e-a696-cae3a25b53f8")
-		)
-		(instances
-			(project "Minibadge Display 5x3"
-				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)

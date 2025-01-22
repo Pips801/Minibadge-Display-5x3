@@ -1184,6 +1184,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_Flash:W25Q32JVSS")
+		(at 163.83 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bc71f6d-a9e1-4a37-9483-bb6b1d29da39")
+		(property "Reference" "U10"
+			(at 172.72 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q32JVSS"
+			(at 172.72 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "fbcc667b-c7e5-4ff8-a0e9-00897a59a3e6")
+		)
+		(pin "2"
+			(uuid "4b069e90-f68a-4c0d-be83-678bd7a8aba3")
+		)
+		(pin "4"
+			(uuid "1b274367-886a-4123-a2c0-20b59ed14b9a")
+		)
+		(pin "1"
+			(uuid "d4fef38f-0353-49de-80bd-890e445547bf")
+		)
+		(pin "7"
+			(uuid "f26e9326-1866-49f9-9371-776e5d2807d7")
+		)
+		(pin "3"
+			(uuid "acaa6053-9c56-474f-b024-aa2c9bf6875e")
+		)
+		(pin "5"
+			(uuid "2c72f799-7910-46e2-881f-2a8409177381")
+		)
+		(pin "6"
+			(uuid "272457e8-b2a9-4356-809f-370d9068546d")
+		)
+		(instances
+			(project ""
+				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/72dbc5c2-e6c3-4b41-8ecd-db82b0a9ba3e"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 163.83 52.07 0)
 		(unit 1)
@@ -1517,93 +1605,6 @@
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/72dbc5c2-e6c3-4b41-8ecd-db82b0a9ba3e"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q32JVSS")
-		(at 163.83 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "efe16722-f291-4c28-b917-15c8618b243e")
-		(property "Reference" "U2"
-			(at 172.72 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q32JVSS"
-			(at 172.72 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
-			(at 163.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
-			(at 163.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-			(at 163.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "cdda73eb-90e1-4df8-93e1-f7264b8c41c6")
-		)
-		(pin "5"
-			(uuid "c81364ba-b467-40e0-bee6-5860bc4f9047")
-		)
-		(pin "4"
-			(uuid "d539e9ac-f4fb-46d1-a591-a22806723add")
-		)
-		(pin "2"
-			(uuid "e50ff253-d8d2-4ef4-99f6-4b25f6680cc3")
-		)
-		(pin "1"
-			(uuid "e01a2644-25f9-4f73-8afb-47f9a7d37d34")
-		)
-		(pin "7"
-			(uuid "a7cb5581-5d19-4b4c-95bd-fff838d03ba5")
-		)
-		(pin "3"
-			(uuid "e5b61d3e-bef6-40e2-aa4b-6573aaa723c7")
-		)
-		(pin "8"
-			(uuid "3e2f6d9c-51b7-4552-9056-b501af925c19")
-		)
-		(instances
-			(project "Minibadge Display 5x3"
-				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/72dbc5c2-e6c3-4b41-8ecd-db82b0a9ba3e"
-					(reference "U2")
 					(unit 1)
 				)
 			)

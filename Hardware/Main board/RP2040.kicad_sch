@@ -3360,7 +3360,7 @@
 	)
 	(text "10kΩ Pullup resistors for I2C + BMS"
 		(exclude_from_sim no)
-		(at 163.322 58.166 0)
+		(at 162.306 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3868,7 +3868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack05"
+		(property "Value" "5x 10k"
 			(at 154.94 64.7699 0)
 			(effects
 				(font
