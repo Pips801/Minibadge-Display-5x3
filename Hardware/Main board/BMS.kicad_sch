@@ -14141,7 +14141,7 @@
 				)
 			)
 		)
-		(property "Value" "BMS Reset"
+		(property "Value" "BMS_RESET"
 			(at 142.494 98.552 90)
 			(effects
 				(font
@@ -14149,7 +14149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 149.86 96.52 0)
 			(effects
 				(font

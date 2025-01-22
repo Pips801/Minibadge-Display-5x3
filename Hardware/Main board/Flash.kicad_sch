@@ -1482,7 +1482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea3b2572-78a8-46c7-a393-98a67ef50d52")
-		(property "Reference" "J2"
+		(property "Reference" "JP3"
 			(at 111.76 81.28 0)
 			(effects
 				(font
@@ -1498,7 +1498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 116.84 81.28 0)
 			(effects
 				(font
@@ -1534,7 +1534,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/72dbc5c2-e6c3-4b41-8ecd-db82b0a9ba3e"
-					(reference "J2")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
