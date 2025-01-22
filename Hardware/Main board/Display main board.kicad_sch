@@ -1336,6 +1336,28 @@
 			)
 		)
 	)
+	(global_label "MB_CLK_LOW"
+		(shape input)
+		(at 339.09 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8dad46f-c23f-465c-afeb-2c813313923f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 354.1099 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MB_CLK"
 		(shape bidirectional)
 		(at 193.04 142.24 180)
@@ -2755,6 +2777,16 @@
 				(justify right)
 			)
 			(uuid "c4994160-97d8-452a-b311-8672223d453b")
+		)
+		(pin "IO9{slash}MB_CLK" output
+			(at 339.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "edb78c60-adbb-4b11-82a9-b96668113d61")
 		)
 		(instances
 			(project "Display main board"
