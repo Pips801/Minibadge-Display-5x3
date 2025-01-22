@@ -3787,6 +3787,26 @@
 		)
 		(uuid "eb83951f-5ee2-45d3-b4b1-5647a5f5362a")
 	)
+	(label "D+"
+		(at 77.47 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dfbff70-2c7c-41a0-84f9-7bab453f0e26")
+	)
+	(label "D-"
+		(at 77.47 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eac9b1eb-fb1d-40c0-bab1-6a5313bedcd1")
+	)
 	(hierarchical_label "QSPI_SS"
 		(shape bidirectional)
 		(at 77.47 90.17 180)
@@ -5645,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.04 82.55 0)
 			(effects
 				(font
@@ -6323,7 +6343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.04 71.12 0)
 			(effects
 				(font
