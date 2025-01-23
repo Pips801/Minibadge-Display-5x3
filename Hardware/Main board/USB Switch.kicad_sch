@@ -1461,7 +1461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TS3USB221A"
 			(at 146.9741 78.74 0)
 			(effects
 				(font
@@ -1489,6 +1489,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C128396"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C128396"
 			(at 144.78 81.28 0)
 			(effects
 				(font

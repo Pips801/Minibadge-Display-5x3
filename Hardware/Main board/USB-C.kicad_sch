@@ -1502,6 +1502,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C165948"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C165948"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B1"
 			(uuid "0ed32fea-b54d-47ff-919a-c5634890ad92")
 		)

@@ -15403,6 +15403,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C80200 "
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C80200 "
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8f32865b-c26e-4bec-acf8-c7e2857a5d73")
 		)
@@ -15600,6 +15618,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C161860"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C161860"
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -15846,7 +15882,7 @@
 				)
 			)
 		)
-		(property "Value" "260"
+		(property "Value" "260Ω"
 			(at 138.43 64.77 90)
 			(effects
 				(font

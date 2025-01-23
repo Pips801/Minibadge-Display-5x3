@@ -1238,6 +1238,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C82344"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C82344"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "fbcc667b-c7e5-4ff8-a0e9-00897a59a3e6")
 		)
