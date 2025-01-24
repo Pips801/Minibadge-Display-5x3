@@ -677,6 +677,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 66.04) (xy 148.59 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9c6329-e228-4d4f-8081-baf584bf0e58")
+	)
+	(wire
+		(pts
 			(xy 276.86 50.8) (xy 285.75 50.8)
 		)
 		(stroke
@@ -874,6 +884,16 @@
 			(type default)
 		)
 		(uuid "a36734a4-a57a-4cb8-a46c-b9c6f0b22c7f")
+	)
+	(wire
+		(pts
+			(xy 339.09 86.36) (xy 349.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55e4340-b121-4032-9a65-44f12fb4c834")
 	)
 	(wire
 		(pts
@@ -1104,6 +1124,16 @@
 		)
 		(uuid "992bf871-53c6-4234-b7e9-577cfbe8c11b")
 	)
+	(label "BMS_STAT"
+		(at 137.16 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9edb5485-f19b-449c-a10c-222f748aaaaa")
+	)
 	(label "USB_DIS"
 		(at 213.36 71.12 180)
 		(effects
@@ -1123,6 +1153,16 @@
 			(justify right bottom)
 		)
 		(uuid "a82a6dfd-57ca-46a6-bf6d-0689d2e33558")
+	)
+	(label "BMS_STAT"
+		(at 349.25 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a94f0070-ad4a-4e9b-a0ca-0889b54a7302")
 	)
 	(label "USB_D+"
 		(at 213.36 64.77 180)
@@ -2788,6 +2828,16 @@
 			)
 			(uuid "edb78c60-adbb-4b11-82a9-b96668113d61")
 		)
+		(pin "IO10{slash}BATT_STAT" input
+			(at 339.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b67167a9-d697-4c5f-bfce-c23bb061bb4c")
+		)
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
@@ -3081,6 +3131,16 @@
 				(justify left)
 			)
 			(uuid "f0746f4b-e03f-4422-a9c9-80baa088ded7")
+		)
+		(pin "STAT" output
+			(at 148.59 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49f415b7-4134-4947-a7e5-4858b4278d6f")
 		)
 		(instances
 			(project "Display main board"

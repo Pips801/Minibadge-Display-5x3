@@ -3157,6 +3157,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 97.79) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9618b165-f837-481b-83fa-f3d0b2f27366")
+	)
+	(wire
+		(pts
 			(xy 132.08 58.42) (xy 127 58.42)
 		)
 		(stroke
@@ -3930,6 +3940,17 @@
 			(justify right)
 		)
 		(uuid "b8287c00-352b-44fb-8eab-a8150199fa55")
+	)
+	(hierarchical_label "IO10{slash}BATT_STAT"
+		(shape input)
+		(at 154.94 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf5541f0-1254-4f80-9a92-70205c698349")
 	)
 	(hierarchical_label "IO0{slash}SDA1"
 		(shape bidirectional)
