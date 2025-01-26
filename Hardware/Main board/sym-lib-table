@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "TS3USB221A")(type "KiCad")(uri "${KIPRJMOD}/TS3USB221A/TS3USB221A.kicad_sym")(options "")(descr ""))
   (lib (name "ABM8-272-T3")(type "KiCad")(uri "${KIPRJMOD}/ABM8-272-T3/ABM8-272-T3.kicad_sym")(options "")(descr "12 MHz ±30ppm Crystal 10pF 50 Ohms 4-SMD, No Lead"))
+  (lib (name "BQ25895-accurate")(type "KiCad")(uri "${KIPRJMOD}/BQ25895RTW/BQ25895-accurate.kicad_sym")(options "")(descr ""))
 )

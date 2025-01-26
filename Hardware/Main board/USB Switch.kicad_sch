@@ -1427,6 +1427,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ece4401a-37d8-47e0-be34-1b71e400654e")
 		)
@@ -1507,6 +1516,15 @@
 			)
 		)
 		(property "LCSC Part #" "C128396"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 144.78 81.28 0)
 			(effects
 				(font

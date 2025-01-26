@@ -1434,6 +1434,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "843c91fe-e1bb-49ea-95d4-bd834274340a")
 		)
@@ -1512,6 +1521,15 @@
 			)
 		)
 		(property "LCSC Part #" "C165948"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -1684,6 +1702,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 127 55.88 0)
 			(effects
 				(font

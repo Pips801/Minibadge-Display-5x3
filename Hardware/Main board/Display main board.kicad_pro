@@ -432,7 +432,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -627,6 +627,12 @@
           "label": "LCSC Part #",
           "name": "LCSC Part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Design guide",
+          "name": "Design guide",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -650,6 +656,11 @@
         {
           "name": "LCSC Part #",
           "url": false,
+          "visible": false
+        },
+        {
+          "name": "Design guide",
+          "url": true,
           "visible": false
         }
       ],

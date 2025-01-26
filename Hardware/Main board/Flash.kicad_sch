@@ -1256,6 +1256,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "fbcc667b-c7e5-4ff8-a0e9-00897a59a3e6")
 		)
@@ -1474,6 +1483,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2012343-5f57-4757-a39c-63af50de5b8f")
 		)
@@ -1535,6 +1553,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 116.84 81.28 0)
 			(effects
 				(font
@@ -1605,6 +1632,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 171.45 62.23 0)
 			(effects
 				(font

@@ -4028,6 +4028,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65e51c77-2660-4635-bd32-8ef9d3d3713a")
 		)
@@ -4163,6 +4172,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "621c02aa-805e-4746-a159-7b34cbed42b3")
 		)
@@ -4224,6 +4242,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -4294,6 +4321,15 @@
 			)
 		)
 		(property "Description" "5 resistor network, parallel topology"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -4825,6 +4861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "d05cb9a3-15de-49d8-9298-de8c70e5d878")
 		)
@@ -5059,6 +5104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "621c02aa-805e-4746-a159-7b34cbed42b4")
 		)
@@ -5119,6 +5173,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 93.98 58.42 0)
 			(effects
 				(font
@@ -5196,6 +5259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 162.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f5f2232-873e-479e-82be-9b08a8774819")
 		)
@@ -5256,6 +5328,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 29.21 113.03 0)
 			(effects
 				(font
@@ -5440,6 +5521,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fcd5339f-95f2-4f05-9458-ba6a16133345")
 		)
@@ -5573,6 +5663,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 232.41 45.72 0)
 			(effects
 				(font
@@ -5715,6 +5814,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "541728df-1ac3-4247-9d50-927a5227b7c8")
 		)
@@ -5776,6 +5884,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -5852,6 +5969,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 29.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55610d60-d208-4f14-9108-f5f16e77f95d")
 		)
@@ -5913,6 +6039,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -6056,6 +6191,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 204.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67fc50a6-f73c-4056-9436-31a3e388e0ae")
 		)
@@ -6116,6 +6260,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 124.46 58.42 0)
 			(effects
 				(font
@@ -6325,6 +6478,15 @@
 				(hide yes)
 			)
 		)
+		(property "Design guide" ""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04220f16-c989-4ea6-b4dc-f7d5801bed42")
 		)
@@ -6385,6 +6547,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Design guide" ""
 			(at 66.04 71.12 0)
 			(effects
 				(font
