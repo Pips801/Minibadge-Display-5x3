@@ -16212,8 +16212,8 @@
 		(uuid "b29416b3-de96-4513-b7ea-97179ac99603")
 	)
 	(gr_rect
-		(start 90.382 72.009)
-		(end 180.382 132.009)
+		(start 94.404 72.136)
+		(end 184.404 132.136)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -16266,8 +16266,8 @@
 		(uuid "1b88a3f3-71f9-4674-9f15-3185c2ff5aa5")
 	)
 	(gr_rect
-		(start 90.382 72.136)
-		(end 180.382 132.136)
+		(start 94.404 72.136)
+		(end 184.404 132.136)
 		(stroke
 			(width 0.25)
 			(type default)
