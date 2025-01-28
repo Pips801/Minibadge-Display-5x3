@@ -1665,7 +1665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28e592b2-5506-417f-8dd1-1804a1881dbe")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 182.88 93.9799 0)
 			(effects
 				(font
@@ -1683,7 +1683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -1722,7 +1722,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1838,7 +1838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33243c2c-6206-45ed-8181-6fb06aabf010")
-		(property "Reference" "H5"
+		(property "Reference" "H2"
 			(at 204.47 87.6299 0)
 			(effects
 				(font
@@ -1856,7 +1856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 201.93 88.9 0)
 			(effects
 				(font
@@ -1895,7 +1895,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "H5")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1911,7 +1911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f36a7ef-7510-4695-a99a-c356a0e54ce0")
-		(property "Reference" "H3"
+		(property "Reference" "H5"
 			(at 182.88 100.3299 0)
 			(effects
 				(font
@@ -1929,7 +1929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "H3")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -1984,7 +1984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50a9018b-8c95-4279-8302-e686fd994a04")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR02"
 			(at 192.786 147.574 0)
 			(effects
 				(font
@@ -2034,7 +2034,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR035")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5df0c013-6e83-4463-b0f1-e138e2f0d113")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR03"
 			(at 205.486 147.574 0)
 			(effects
 				(font
@@ -2095,12 +2095,12 @@
 			)
 		)
 		(pin ""
-			(uuid "0022ae3c-c45d-4d3e-a591-762b8d8feb25")
+			(uuid "0022ae3c-c45d-4d3e-a591-762b8d8feb26")
 		)
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "#PWR037")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2116,7 +2116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ea081e-83bc-4800-b4a8-2b7a6531c11e")
-		(property "Reference" "H7"
+		(property "Reference" "H6"
 			(at 204.47 100.3299 0)
 			(effects
 				(font
@@ -2134,7 +2134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 201.93 101.6 0)
 			(effects
 				(font
@@ -2173,7 +2173,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "H7")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -2262,7 +2262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ed40abf-3e31-44e2-8b51-5be3a8ac6d77")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 204.47 93.9799 0)
 			(effects
 				(font
@@ -2280,7 +2280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 201.93 95.25 0)
 			(effects
 				(font
@@ -2319,7 +2319,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2335,7 +2335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6cfe0c3-50bf-4007-9dc7-13a45865c453")
-		(property "Reference" "H4"
+		(property "Reference" "H7"
 			(at 182.88 106.6799 0)
 			(effects
 				(font
@@ -2353,7 +2353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 180.34 107.95 0)
 			(effects
 				(font
@@ -2392,7 +2392,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532"
-					(reference "H4")
+					(reference "H7")
 					(unit 1)
 				)
 			)

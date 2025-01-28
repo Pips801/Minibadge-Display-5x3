@@ -505,262 +505,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:AP7361C-33E"
 			(pin_names
 				(offset 0.254)
@@ -1338,16 +1082,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 48.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39546eb6-2f78-4598-b716-ef97a802be9d")
-	)
-	(wire
-		(pts
 			(xy 236.22 62.23) (xy 236.22 64.77)
 		)
 		(stroke
@@ -1398,13 +1132,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 49.53) (xy 53.34 49.53)
+			(xy 48.26 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53d1bf0e-8979-4c1b-bd70-d1932877c8df")
+		(uuid "5346b8ad-95fc-4e25-bef2-b13a7bab6fca")
+	)
+	(wire
+		(pts
+			(xy 48.26 49.53) (xy 48.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e6717f-f9e2-47ff-9283-7d6983cef2e3")
 	)
 	(wire
 		(pts
@@ -2072,7 +1816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17f9b862-42cf-4fec-849c-138c66050f28")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR035"
 			(at 69.596 136.144 0)
 			(effects
 				(font
@@ -2122,7 +1866,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "#PWR040")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2138,7 +1882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18ed2baa-0e48-4919-b15e-f1ebff6c37e4")
-		(property "Reference" "C23"
+		(property "Reference" "C16"
 			(at 104.14 68.5862 0)
 			(effects
 				(font
@@ -2201,7 +1945,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "C23")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2217,7 +1961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d099a9-ffe7-47e9-9bee-48eb6bf19950")
-		(property "Reference" "C28"
+		(property "Reference" "C13"
 			(at 238.76 58.4262 0)
 			(effects
 				(font
@@ -2280,7 +2024,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "C28")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2296,7 +2040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244a8a04-6b75-4ae9-8632-a31d52738960")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -2379,7 +2123,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2394,7 +2138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38c6bcab-d8fa-461a-b6a6-9051384b6ced")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR028"
 			(at 34.29 52.07 0)
 			(effects
 				(font
@@ -2444,7 +2188,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "#PWR034")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2460,7 +2204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49aa8d43-3984-45b7-af62-f58661b8e491")
-		(property "Reference" "C22"
+		(property "Reference" "C15"
 			(at 78.74 68.5862 0)
 			(effects
 				(font
@@ -2523,7 +2267,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "C22")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2539,7 +2283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50582759-da86-413a-b1a9-5dbe553acd9a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR029"
 			(at 240.03 58.42 0)
 			(effects
 				(font
@@ -2589,7 +2333,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2605,7 +2349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "595447d2-afcf-476c-bae9-230f98f3c66a")
-		(property "Reference" "C21"
+		(property "Reference" "C14"
 			(at 50.8 68.5862 0)
 			(effects
 				(font
@@ -2668,7 +2412,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "C21")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2684,7 +2428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d518bdc-eb4a-494c-8886-c482a73a9588")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR034"
 			(at 67.31 104.14 0)
 			(effects
 				(font
@@ -2734,87 +2478,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 48.26 49.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "7420f358-d9c7-4bec-bf7f-0cdd9daee0bb")
-		(property "Reference" "JP2"
-			(at 48.26 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Voltage Select"
-			(at 48.26 46.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels"
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Design guide" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33fad8e8-f309-4c08-9bce-8ad0ece59123")
-		)
-		(pin "2"
-			(uuid "a2a36b11-9816-428c-bc3d-f531199206f9")
-		)
-		(pin "3"
-			(uuid "12aafdb5-bb78-498b-ba91-19ae6f431c59")
-		)
-		(instances
-			(project ""
-				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "JP2")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2830,7 +2494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bf07156-ec17-49c8-b287-bd0bc0d22af6")
-		(property "Reference" "C27"
+		(property "Reference" "C12"
 			(at 210.82 58.4262 0)
 			(effects
 				(font
@@ -2893,7 +2557,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "C27")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3008,7 +2672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e4ec0f-61ec-46a9-888e-015fdfe7fe62")
-		(property "Reference" "C26"
+		(property "Reference" "C19"
 			(at 185.42 68.5862 0)
 			(effects
 				(font
@@ -3071,7 +2735,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "C26")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3186,7 +2850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ada9f76-b44c-4b5a-a874-3f906178cfea")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR033"
 			(at 168.656 76.454 0)
 			(effects
 				(font
@@ -3236,7 +2900,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "#PWR036")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3252,7 +2916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac5cbeb5-2aba-4b99-b5f2-cf7dc3b6a28d")
-		(property "Reference" "C24"
+		(property "Reference" "C17"
 			(at 132.08 68.5862 0)
 			(effects
 				(font
@@ -3315,7 +2979,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "C24")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3330,7 +2994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1bcd8cd-6ab4-4b33-8c39-529607683b1f")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 72.0441 133.35 0)
 			(effects
 				(font
@@ -3432,7 +3096,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba2b0590-2d00-48e4-9b11-9a078e07dc85")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR030"
 			(at 221.996 66.294 0)
 			(effects
 				(font
@@ -3498,7 +3162,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "#PWR039")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3514,7 +3178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a644d1-a7bb-4310-a13c-16ecf647411a")
-		(property "Reference" "C25"
+		(property "Reference" "C18"
 			(at 157.48 68.5862 0)
 			(effects
 				(font
@@ -3577,7 +3241,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "C25")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3593,7 +3257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3c7924c-290c-409a-9dc0-8020f12dcad3")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 115.316 76.454 0)
 			(effects
 				(font
@@ -3643,7 +3307,7 @@
 		(instances
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3758,7 +3422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaca74fa-14ea-4af1-a54f-a10701b03e84")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR031"
 			(at 61.976 76.454 0)
 			(effects
 				(font
@@ -3808,7 +3472,7 @@
 		(instances
 			(project ""
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/7829a1d4-1109-4ab0-9e3a-4c6d8c9e21fc"
-					(reference "#PWR060")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
