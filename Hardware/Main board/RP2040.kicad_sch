@@ -4047,7 +4047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PawConnect:Paw-Connect_RevA_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+		(property "Footprint" "PawConnect:Paw-Connect_RevB_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 			(at 44.45 99.06 0)
 			(effects
 				(font
