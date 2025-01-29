@@ -1538,7 +1538,7 @@
 			)
 		)
 		(pin ""
-			(uuid "a8ffaa05-657c-438d-936f-f78fca12c3b7")
+			(uuid "a8ffaa05-657c-438d-936f-f78fca12c3b8")
 		)
 		(instances
 			(project ""
@@ -1880,7 +1880,7 @@
 			)
 		)
 		(pin ""
-			(uuid "a8ffaa05-657c-438d-936f-f78fca12c3b7")
+			(uuid "a8ffaa05-657c-438d-936f-f78fca12c3b9")
 		)
 		(instances
 			(project ""

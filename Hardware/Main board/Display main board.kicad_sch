@@ -763,6 +763,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 86.36) (xy 339.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9c3064-0a3c-42a1-86bf-35e8c5989381")
+	)
+	(wire
+		(pts
 			(xy 339.09 74.93) (xy 349.25 74.93)
 		)
 		(stroke
@@ -913,16 +923,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 86.36) (xy 349.25 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55e4340-b121-4032-9a65-44f12fb4c834")
-	)
-	(wire
-		(pts
 			(xy 270.51 77.47) (xy 285.75 77.47)
 		)
 		(stroke
@@ -1033,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 82.55) (xy 339.09 82.55)
+			(xy 349.25 82.55) (xy 339.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1081,7 +1081,7 @@
 		(uuid "02a0039b-a8f2-41e1-bea3-285f2ef6cbb9")
 	)
 	(label "BMS_INT"
-		(at 349.25 63.5 180)
+		(at 349.25 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1111,7 +1111,7 @@
 		(uuid "0ee88846-1aef-4857-9094-c11031ced3c1")
 	)
 	(label "BMS_OTG"
-		(at 349.25 67.31 180)
+		(at 349.25 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 		(uuid "a82a6dfd-57ca-46a6-bf6d-0689d2e33558")
 	)
 	(label "BMS_STAT"
-		(at 349.25 86.36 180)
+		(at 349.25 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1221,7 +1221,7 @@
 		(uuid "c970e78b-adc3-4735-88d1-309b24243747")
 	)
 	(label "USB_DSEL"
-		(at 349.25 74.93 180)
+		(at 349.25 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1241,7 +1241,7 @@
 		(uuid "cab4f446-58a6-44f6-bd72-67b6bd7a7840")
 	)
 	(label "USB_DIS"
-		(at 349.25 78.74 180)
+		(at 349.25 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,7 +1271,7 @@
 		(uuid "f5e6dcd9-5761-4c45-a4ad-12b1fa99d261")
 	)
 	(label "BMS_CE"
-		(at 349.25 71.12 180)
+		(at 349.25 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1414,7 +1414,7 @@
 	)
 	(global_label "MB_CLK_LOW"
 		(shape input)
-		(at 340.36 82.55 0)
+		(at 340.36 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1424,7 +1424,7 @@
 		)
 		(uuid "a8dad46f-c23f-465c-afeb-2c813313923f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.3799 82.55 0)
+			(at 355.3799 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
