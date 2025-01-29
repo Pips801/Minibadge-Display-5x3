@@ -3,4 +3,6 @@
   (lib (name "TS3USB221A")(type "KiCad")(uri "${KIPRJMOD}/TS3USB221A")(options "")(descr ""))
   (lib (name "ABM8-272-T3")(type "KiCad")(uri "${KIPRJMOD}/ABM8-272-T3")(options "")(descr ""))
   (lib (name "PawConnect")(type "KiCad")(uri "${KIPRJMOD}/PawConnect")(options "")(descr ""))
+  (lib (name "TS-1187A")(type "KiCad")(uri "${KIPRJMOD}/TS-1187A")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/WS2812C-2020/Library.pretty")(options "")(descr ""))
 )
