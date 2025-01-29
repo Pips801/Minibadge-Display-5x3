@@ -2486,6 +2486,10 @@
 		(color 0 0 0 0)
 		(uuid "ff559dc9-0ce5-4860-8af3-a58f8a469f46")
 	)
+	(no_connect
+		(at 52.07 86.36)
+		(uuid "1d64aa08-7c03-4f96-a4b2-69d385010e6c")
+	)
 	(wire
 		(pts
 			(xy 212.09 41.91) (xy 212.09 43.18)
@@ -2748,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 90.17) (xy 58.42 90.17)
+			(xy 59.69 83.82) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2765,6 +2769,16 @@
 			(type default)
 		)
 		(uuid "516a43f7-1e7e-49a6-b632-2649ab30d44c")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52df2e37-e18f-44da-91d6-d86dfb91ee79")
 	)
 	(wire
 		(pts
@@ -2895,6 +2909,16 @@
 			(type default)
 		)
 		(uuid "7bc010e2-be45-4897-a897-c1cf1eaae99a")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 52.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3db280-a589-46e1-9123-bb3954d5440a")
 	)
 	(wire
 		(pts
@@ -3158,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 87.63) (xy 58.42 87.63)
+			(xy 59.69 81.28) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3628,8 +3652,18 @@
 		)
 		(uuid "eb83951f-5ee2-45d3-b4b1-5647a5f5362a")
 	)
+	(label "RUN"
+		(at 96.52 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "037a6f07-5117-4df2-ad92-d6487eb02d4c")
+	)
 	(label "SWCLK"
-		(at 66.04 87.63 180)
+		(at 59.69 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3649,7 +3683,7 @@
 		(uuid "3ab1a5de-3f2c-4057-bf33-23e2ab30139d")
 	)
 	(label "SWDIO"
-		(at 66.04 90.17 180)
+		(at 59.69 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3677,6 +3711,16 @@
 			(justify left bottom)
 		)
 		(uuid "a1395296-d34e-4d67-9268-6843d6ab0490")
+	)
+	(label "RUN"
+		(at 59.69 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c468aa32-e6a3-4bb3-9f6d-4c796620e40c")
 	)
 	(label "D-"
 		(at 99.06 82.55 0)
@@ -3977,7 +4021,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
-		(at 50.8 87.63 0)
+		(at 44.45 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3986,7 +4030,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e0f5b4d-f2de-4e88-af99-7a1c9e4ff1fb")
 		(property "Reference" "J3"
-			(at 44.45 86.3599 0)
+			(at 38.1 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +4039,7 @@
 			)
 		)
 		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
-			(at 44.45 88.8999 0)
+			(at 38.1 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4048,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 50.8 105.41 0)
+			(at 44.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-			(at 50.8 102.87 0)
+			(at 44.45 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4066,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
-			(at 50.8 87.63 0)
+			(at 44.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,6 +4239,72 @@
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 41.91 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d752dda-5f36-4fe1-9819-30ff4ac864bd")
+		(property "Reference" "#PWR013"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f75dfc45-beb0-4e9f-b139-b2974bac2e73")
+		)
+		(instances
+			(project "Display main board"
+				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4537,6 +4647,72 @@
 			(project "Display main board"
 				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ25895-accurate:AGND")
+		(at 41.91 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60c00b7a-5fb7-470f-9873-8f503d155206")
+		(property "Reference" "#PWR049"
+			(at 41.656 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c055495-7cc4-43a4-9ce4-1b60c71db8bd")
+		)
+		(instances
+			(project "Display main board"
+				(path "/e5119d15-74fb-4259-abbc-5cab1f368532/9c03ac80-c552-4a59-83c4-4e8b67a63031"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
