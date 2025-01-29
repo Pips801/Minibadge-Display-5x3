@@ -1523,6 +1523,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/S3B-XH-SM4-TB/S3B-XH-SM4-TB_LF__SN_.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -4770,6 +4781,17 @@
 			(uuid "be42b234-86ff-4abb-a030-cee2ed48db4f")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_5.3x6.2mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12491,6 +12513,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/IHLP2525/IHLP2525CZ.step"
+			(offset
+				(xyz -1.5 5.25 -2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
