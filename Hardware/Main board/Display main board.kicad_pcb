@@ -1041,7 +1041,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at -2.286 0 180)
+			(at 0 1.143 -90)
 			(layer "F.SilkS")
 			(uuid "5f7da148-1793-4e2d-9a54-dca88408aec2")
 			(effects
@@ -3609,7 +3609,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at -2.286 0 0)
+			(at 0 1.143 90)
 			(layer "F.SilkS")
 			(uuid "3330e96a-a396-4d4c-aacd-c3ed8a2f989d")
 			(effects
@@ -3861,7 +3861,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at -2.286 0 180)
+			(at 0 1.143 -90)
 			(layer "F.SilkS")
 			(uuid "ff2eedc5-1ec7-4463-8467-a0c5986af549")
 			(effects
@@ -5449,7 +5449,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "449b0c29-0476-4922-a0ab-e75f4e8b1a42")
-		(at 87.630001 84.464661)
+		(at 87.630001 84.210661)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -12606,7 +12606,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at -2.286 0 180)
+			(at 0 1.143 -90)
 			(layer "F.SilkS")
 			(uuid "7bd1530a-04cf-4a38-b3d7-9b05e0c2b5c7")
 			(effects
@@ -14083,7 +14083,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at -2.286 0 180)
+			(at 0 1.143 -90)
 			(layer "F.SilkS")
 			(uuid "f8fa6a1c-d597-4511-a28b-d23fc0b4da0f")
 			(effects
@@ -16184,7 +16184,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at -2.286 0 180)
+			(at 0 1.143 -90)
 			(layer "F.SilkS")
 			(uuid "55e33546-2126-4bcb-acba-1295162f2f01")
 			(effects
@@ -17015,7 +17015,7 @@
 		(descr "SMD Tactile Switch, http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf")
 		(tags "SPST Tactile Switch")
 		(property "Reference" "SW1"
-			(at 4.572 0 360)
+			(at -4.318 -0.254 360)
 			(layer "F.SilkS")
 			(uuid "f96285ee-bb1e-4109-8592-36bc7653ae65")
 			(effects
@@ -20458,7 +20458,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "da712d2c-5f0c-472d-a664-172e7d3183de")
-		(at 78.105001 61.616062)
+		(at 77.216001 61.235062)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -26017,7 +26017,7 @@
 	)
 	(gr_rect
 		(start 82.296 58.395)
-		(end 116.84 73.508)
+		(end 116.84 73.635)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -26059,6 +26059,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5666a3a6-a856-4e87-b41e-8d0819ca20ce")
+	)
+	(gr_line
+		(start 184.404 73.66)
+		(end 200.66 73.66)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5d6c7585-562e-444f-8e2c-c0533902c27d")
 	)
 	(gr_arc
 		(start 80.844 134.62)
@@ -26106,6 +26116,17 @@
 		(layer "F.SilkS")
 		(uuid "7f719b93-17f5-4d98-8ef6-454bc4722270")
 	)
+	(gr_rect
+		(start 73.66 90.805)
+		(end 94.361 120.015)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8be654e5-733f-434e-99ac-fc077d783237")
+	)
 	(gr_line
 		(start 193.476 134.62)
 		(end 80.844 134.62)
@@ -26121,7 +26142,7 @@
 		(start 143.256 58.801)
 		(end 149.733 63.627)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type default)
 		)
 		(fill none)
@@ -26164,7 +26185,7 @@
 	)
 	(gr_rect
 		(start 94.404 73.66)
-		(end 184.404 133.66)
+		(end 184.404 134.549)
 		(stroke
 			(width 0.25)
 			(type default)
@@ -26172,6 +26193,16 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "ba32c20e-0441-42df-aa64-51d7417b194b")
+	)
+	(gr_line
+		(start 200.66 73.66)
+		(end 200.66 65.604)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb189031-457f-44dd-9ef8-6f3df204a531")
 	)
 	(gr_line
 		(start 144.78 53.34)
@@ -26183,6 +26214,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "bdf56480-b173-4af4-90ee-532a01b423c7")
+	)
+	(gr_rect
+		(start 149.098 64.516)
+		(end 164.592 67.564)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "da2f96d9-f0e1-4432-be3c-1b8993988dee")
 	)
 	(gr_arc
 		(start 200.66 127.436)
@@ -26207,6 +26249,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "e90d65d5-0fb9-48bf-a17e-93514b418a1f")
+	)
+	(gr_line
+		(start 164.592 73.66)
+		(end 164.592 58.42)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fca22c5e-f20d-49d7-82b5-5a21e624c7f6")
 	)
 	(gr_rect
 		(start 94.404 73.66)
@@ -39316,6 +39368,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "10kΩ pullups"
+		(at 154.06662 68.885664 0)
+		(layer "F.SilkS" knockout)
+		(uuid "08840602-af96-4ca3-aaca-298a0417c5cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "BATT: 5000mAh"
 		(at 186.067629 128.566566 0)
 		(layer "F.SilkS" knockout)
@@ -39329,13 +39393,13 @@
 		)
 	)
 	(gr_text "BATT\n"
-		(at 91.821 126.238 90)
-		(layer "F.SilkS")
+		(at 90.715641 120.8507 0)
+		(layer "F.SilkS" knockout)
 		(uuid "16ba5c05-5416-4188-963c-85f7fd767e5d")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
 			)
 			(justify left)
 		)
@@ -39364,15 +39428,39 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TC2030NL"
-		(at 146.558 64.389 -0)
-		(layer "F.SilkS")
+	(gr_text "DEBUG"
+		(at 145.597381 64.380029 -0)
+		(layer "F.SilkS" knockout)
 		(uuid "594aa06a-272d-4be8-9ab9-157c33f1d7ba")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 1 1)
+				(thickness 0.2)
 			)
+		)
+	)
+	(gr_text "RP2040"
+		(at 197.649945 73.492659 0)
+		(layer "F.SilkS" knockout)
+		(uuid "60a79d14-5c14-43ed-8acb-4d46c38b5f82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "BMS"
+		(at 75.267646 90.637849 0)
+		(layer "F.SilkS" knockout)
+		(uuid "6442750a-e949-42be-be81-a6e63933733b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "+3V3-2\n+VBATT\nMB_CLK\nMB_SCL\nGND"
@@ -39412,6 +39500,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "Voltage Regulators"
+		(at 80.899 66.167 -90)
+		(layer "F.SilkS" knockout)
+		(uuid "8d692234-7239-4ef0-92f5-a5b5ca91ae6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "OUT: 3.8V@6A MAX"
 		(at 186.10673 130.81 0)
 		(layer "F.SilkS" knockout)
@@ -39438,7 +39538,7 @@
 		)
 	)
 	(gr_text "HOT!"
-		(at 78.105 69.342 0)
+		(at 77.216 68.961 0)
 		(layer "F.SilkS")
 		(uuid "f61d1b1f-ec59-418d-a65d-6b2860763bfc")
 		(effects
@@ -39451,7 +39551,7 @@
 		)
 	)
 	(gr_text "HOT!"
-		(at 87.63 90.6566 0)
+		(at 87.63 90.4026 0)
 		(layer "F.SilkS")
 		(uuid "fdd1b769-a648-477d-868f-d892173a36e3")
 		(effects
