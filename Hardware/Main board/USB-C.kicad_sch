@@ -1424,8 +1424,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 127 61.722 90)
+		(property "Value" "5.1kΩ"
+			(at 127 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,6 +1460,24 @@
 			)
 		)
 		(property "Design guide" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts URL" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 127 58.42 0)
 			(effects
 				(font
@@ -1766,7 +1784,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 127 52.324 90)
 			(effects
 				(font
@@ -1802,6 +1820,24 @@
 			)
 		)
 		(property "Design guide" ""
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts URL" ""
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 127 55.88 0)
 			(effects
 				(font
