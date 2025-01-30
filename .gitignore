@@ -33,5 +33,5 @@ fp-info-cache
 *.lck
 
 #JLCPCB Production backups
-production/backups
+production/backups/
 backups/
