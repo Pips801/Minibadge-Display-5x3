@@ -32632,17 +32632,17 @@
 			)
 		)
 	)
-	(gr_text "Battery\nSize: 606090 (6mm x 60mm x 90mm)\nConn: 3 Pin JST XH 2.54mm\nCapacity: 5000mAh / 19.25Wh"
-		(at 139.7 93.7768 0)
+	(gr_text "Battery\nSize: 606090 (6mm x 60mm x 90mm)\nConn: 3 Pin JST XH 2.54mm\nCapacity: 5000mAh / 19.25Wh\nCharge/Discharge: 2A/6A"
+		(at 183.261 130.429 0)
 		(layer "F.SilkS")
 		(uuid "82280d4c-d5bb-47f5-a776-b86ef546feef")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 1.4 1.4)
+				(thickness 0.3)
 				(bold yes)
 			)
-			(justify bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "Voltage Regulators"
@@ -32695,6 +32695,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "We've been trying to reach you\nabout your car's extended warranty!"
+		(at 139.954 102.108 0)
+		(layer "F.SilkS")
+		(uuid "fc31fb22-f747-4008-9cee-88aa0df6fe01")
+		(effects
+			(font
+				(size 1.8 1.8)
+				(thickness 0.35)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "HOT!"
 		(at 87.63 90.0176 0)
 		(layer "F.SilkS")
@@ -32719,24 +32732,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text_box "We've been trying to reach you about your car's extended warranty!"
-		(start 99.5299 105.41)
-		(end 181.1909 109.6772)
-		(layer "F.SilkS")
-		(uuid "d9dd2087-245d-41bb-9450-bd7dd12de785")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.2)
-			)
-			(justify top)
-		)
-		(border no)
-		(stroke
-			(width 0.1)
-			(type solid)
 		)
 	)
 	(dimension
