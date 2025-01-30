@@ -26890,6 +26890,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C52923"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec8bd726-0adc-4c45-95d9-6614f8911474")
 		)
@@ -27389,6 +27398,24 @@
 			)
 		)
 		(property "Design guide" ""
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts URL" ""
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C426659"
 			(at 161.29 66.04 0)
 			(effects
 				(font
@@ -27950,7 +27977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 175.26 50.8 90)
 			(effects
 				(font
@@ -27978,6 +28005,24 @@
 			)
 		)
 		(property "Design guide" ""
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts URL" ""
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14651"
 			(at 175.26 50.8 0)
 			(effects
 				(font
