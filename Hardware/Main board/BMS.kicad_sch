@@ -25230,6 +25230,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Parts URL" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C861779"
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "efa3d9ff-d789-40ad-b8db-ed62b0d8a568")
 		)
@@ -26891,6 +26909,15 @@
 			)
 		)
 		(property "LCSC Part #" "C52923"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Parts URL" ""
 			(at 135.89 92.71 0)
 			(effects
 				(font
